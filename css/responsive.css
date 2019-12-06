@@ -1,0 +1,155 @@
+@media screen and (min-width: 641px) and (max-width: 768px) {
+	a.icon{
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.mynavbar div div div:not(:first-child) {
+		display: none;
+	}
+
+	.menu {
+		flex-direction: column;
+	}
+
+	.search-icon a {
+		width: 100%;
+		text-align: center;
+	}
+
+	.services-top p {
+		padding: 10px 20px;
+	}
+
+	.portfolio-bottom-bottom div img {
+	    width: 100%;
+	}
+
+	#features div p {
+		padding: 20px;
+	}
+
+	#mega-menu div div div {
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 640px) {
+
+	.container {
+		padding: 0 25px;
+	}
+
+	#topnav div {
+		display: inline-block;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	#topnav div a {
+		padding: 0 10px;
+	}
+
+	a.icon{
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.mynavbar div div div:not(:first-child) {
+		display: none;
+	}
+
+	.menu {
+		flex-direction: column;
+	}
+
+	.search-icon a {
+		width: 100%;
+		text-align: center;
+	}
+
+	#slider div p {
+		padding: 20px 0;
+	}
+
+	#services {
+		padding-bottom: 0;
+	}
+
+	.services-top p {
+	    padding: 20px 0;
+	}
+
+	.services-icon {
+		margin-left: auto;
+	}
+
+	.portfolio-bottom div {
+		padding-top: 40px;
+	}
+
+	.portfolio-bottom-bottom div {
+		width: 50%;
+		padding: 20px 0;
+	}
+
+	.portfolio-bottom-bottom div img {
+		width: 200px;
+	}
+
+	#features div p {
+		padding: 20px;
+	}
+
+	#mega-menu div div div {
+		padding: 20px;
+	}
+
+	.mm2 div {
+		padding: 10px 8px !important;
+	}
+
+	.mm2 div div {
+		width: 50%;
+	}
+
+	.mm3 a {
+		display: flex;
+	}
+
+	.mm4 form input[type=submit] {
+		top: 97px;
+		right: 25px;
+	}
+
+	#footer div {
+		text-align: center;
+		display: inline-block;
+	}
+
+	#footer div div {
+		padding: 10px 0;
+	}
+
+	.footer-menu span {
+		padding: 0 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.portfolio-bottom-bottom div img {
+	    width: 150px;
+	}
+
+	#slider {
+		padding: 150px 0;
+	}
+
+	.mm4 form input[type=submit] {
+	    top: 120px;
+	}
+}
